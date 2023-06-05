@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mindbox.ShapeSquares", "Mindbox.ShapeSquares\Mindbox.ShapeSquares.csproj", "{521BC138-39AE-44CE-8F96-9093038B3572}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mindbox.ShapeSquares.Test", "Mindbox.ShapeSquares.Test\Mindbox.ShapeSquares.Test.csproj", "{3CD975E2-9DBC-486D-B0B6-AE338D5EEA57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mindbox.ShapeSquares.Consumer", "Mindbox.ShapeSquares.Consumer\Mindbox.ShapeSquares.Consumer.csproj", "{EAD33CC9-F81B-4A4F-9703-8B161D6D210A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{521BC138-39AE-44CE-8F96-9093038B3572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{521BC138-39AE-44CE-8F96-9093038B3572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{521BC138-39AE-44CE-8F96-9093038B3572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{521BC138-39AE-44CE-8F96-9093038B3572}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CD975E2-9DBC-486D-B0B6-AE338D5EEA57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CD975E2-9DBC-486D-B0B6-AE338D5EEA57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CD975E2-9DBC-486D-B0B6-AE338D5EEA57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CD975E2-9DBC-486D-B0B6-AE338D5EEA57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAD33CC9-F81B-4A4F-9703-8B161D6D210A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAD33CC9-F81B-4A4F-9703-8B161D6D210A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAD33CC9-F81B-4A4F-9703-8B161D6D210A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAD33CC9-F81B-4A4F-9703-8B161D6D210A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
