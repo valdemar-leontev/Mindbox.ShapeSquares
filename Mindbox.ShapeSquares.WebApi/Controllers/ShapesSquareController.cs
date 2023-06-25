@@ -26,4 +26,14 @@ public class ShapeSquaresController : ControllerBase
 
         return Ok(triangleSquare);
     }
+
+    [HttpGet("/triangle/isRight")]
+    public IActionResult GetTriangleIsRight(double aSide, double bSide, double cSide)
+    {
+        var triangle = new Triangle(aSide, bSide, cSide);
+
+        var triangleIsRight = triangle.IsRightTriangle;
+
+        return Ok(triangleIsRight);
+    }
 }
