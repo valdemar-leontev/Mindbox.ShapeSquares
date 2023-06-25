@@ -70,13 +70,13 @@ public class Triangle : IShape
     {
         get
         {
-            var perimeter = SideA + SideB + SideC;
+            var halfPerimeter = (SideA + SideB + SideC) / 2;
 
             return Math.Sqrt(
-                perimeter *
-                (perimeter - SideA) *
-                (perimeter - SideB) *
-                (perimeter - SideC)
+                halfPerimeter *
+                (halfPerimeter - SideA) *
+                (halfPerimeter - SideB) *
+                (halfPerimeter - SideC)
             );
         }
     }
