@@ -1,39 +1,47 @@
 using Microsoft.AspNetCore.Mvc;
 using Mindbox.ShapeSquares.Shapes;
 
-namespace Mindbox.ShapeSquares.WebApi;
+namespace Mindbox.ShapeSquares.WebApi.Controllers;
 
 [ApiController]
 [Route("/shape-squares")]
 public class ShapeSquaresController : ControllerBase
 {
+
+    private readonly Triangle _triangle;
+    private readonly Circle _circle;
+
+    public ShapeSquaresController(Triangle triangle, Circle circle)
+    {
+        _triangle = triangle;
+        _circle = circle;
+    }
+    
     [HttpGet("/circle")]
     public IActionResult GetCircleSquare(double radius)
     {
-        var circle = new Circle(radius);
-
-        var circleSquare = circle.Square;
-
-        return Ok(circleSquare);
+        _circle.Radius = radius;
+        
+        return Ok(_circle.Square);
     }
 
     [HttpGet("/triangle")]
     public IActionResult GetTriangleSquare(double aSide, double bSide, double cSide)
     {
-        var triangle = new Triangle(aSide, bSide, cSide);
+        _triangle.SideA = aSide;
+        _triangle.SideB = bSide;
+        _triangle.SideC = cSide;
 
-        var triangleSquare = triangle.Square;
-
-        return Ok(triangleSquare);
+        return Ok(_triangle.Square);
     }
 
     [HttpGet("/triangle/isRight")]
     public IActionResult GetTriangleIsRight(double aSide, double bSide, double cSide)
     {
-        var triangle = new Triangle(aSide, bSide, cSide);
+       _triangle.SideA = aSide;
+       _triangle.SideB = bSide;
+       _triangle.SideC = cSide;
 
-        var triangleIsRight = triangle.IsRightTriangle;
-
-        return Ok(triangleIsRight);
+       return Ok(_triangle.IsRightTriangle);
     }
 }

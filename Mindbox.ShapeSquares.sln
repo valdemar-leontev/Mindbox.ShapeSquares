@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mindbox.ShapeSquares.Test",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mindbox.ShapeSquares.Consumer", "Mindbox.ShapeSquares.Consumer\Mindbox.ShapeSquares.Consumer.csproj", "{EAD33CC9-F81B-4A4F-9703-8B161D6D210A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mindbox.ShapeSquares.WebApi", "Mindbox.ShapeSquares.WebApi\Mindbox.ShapeSquares.WebApi.csproj", "{36F5A4AA-F6FB-4FEC-84B9-8FD02679D27A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{EAD33CC9-F81B-4A4F-9703-8B161D6D210A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAD33CC9-F81B-4A4F-9703-8B161D6D210A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAD33CC9-F81B-4A4F-9703-8B161D6D210A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36F5A4AA-F6FB-4FEC-84B9-8FD02679D27A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36F5A4AA-F6FB-4FEC-84B9-8FD02679D27A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36F5A4AA-F6FB-4FEC-84B9-8FD02679D27A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36F5A4AA-F6FB-4FEC-84B9-8FD02679D27A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
