@@ -1,6 +1,6 @@
 ## Task 2
 
-To complete task 2, 3 projects were created: Mindbox.ShapeSquares, Mindbox.ShapeSquares.Test, Mindbox.ShapeSquares.Consumer.
+To complete task 2, 3 projects were created: Mindbox.ShapeSquares, Mindbox.ShapeSquares.Test, Mindbox.ShapeSquares.Consumer, Mindbox.ShapeSquares.WebApi.
 
 ### Mindbox.ShapeSquares.
 Implemented API for calculating the squares of figures.
@@ -10,6 +10,9 @@ Tests for the Mindbox.ShapeSquares library.
 
 ### Mindbox.ShapeSquares.Consumer.
 In this project, we solved the problem of calculating the area of a figure without knowing the type of figure in compile-time.
+
+### Mindbox.ShapeSquares.WebApi
+This project contains several webApi endpoints for obtaining the areas of shapes.
 
 ## Task 3
 
